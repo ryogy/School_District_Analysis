@@ -9,7 +9,7 @@ The purpose of this analysis was to organize the data to provide insight on how 
    
 * The difference between the unadjusted school summary and adjusted school summary for Thomas High School was drastic.  Obviously, when the entire 9th grade scores are replaced with NANs it will drastically skew the average passing rate of the entire school towards zero.  The skew can be seen between the dataframes presented below.
     ###### The Unadjusted DataFrame: 9th Grade Scores Replaced with NAN
-    ![unadjusted_df](School_District_Analysis/Resources/unadjusted_df.png)
+    ![unadjusted_df](https://github.com/ryogy/School_District_Analysis/blob/main/Resources/unadjusted_df.png)
     
     ###### The Adjusted DataFrame: 9th Grade Scores from Thomas High School were Removed from the Dataset Analysis
     ![adjusted_df](https://github.com/ryogy/School_District_Analysis/blob/main/Resources/adjusted_df.png)
