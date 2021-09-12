@@ -1,4 +1,4 @@
-q# School District Analysis
+
 
 ## Overview of the School District Analysis
 The purpose of this analysis was to organize the data to provide insight on how certain variables effect student outcomes.  Multiple Data Frames were created to show student outcomes by school, school spending per student, school size, and school type.  All of these variables play important roles in student development that is quantitatively measured by overall passing percentage of the students.  With the data organized in this fashion it makes it easy to identify the primary factors that influence student success.  Additionally, there was an incidence of cheating at one particular high school, Thomas High School, and those grades needed to be removed to validate the dataset. 
@@ -12,7 +12,7 @@ The purpose of this analysis was to organize the data to provide insight on how 
     ![unadjusted_df](School_District_Analysis/Resources/unadjusted_df.png)
     
     ###### The Adjusted DataFrame: 9th Grade Scores from Thomas High School were Removed from the Dataset Analysis
-    ![adjusted_df](School_District_Analysis/Resources/adjusted_df.png)
+    ![adjusted_df](https://github.com/ryogy/School_District_Analysis/blob/main/Resources/adjusted_df.png)
     
 * This very much affects the standing of Thomas High School in the school district rankings.  Under normal circumstances, Thomas High School stands at #2 in the district rankings.  However, with the 9th grade scores being factored in as NANs the school comes in at the #8 spot in the district rankings. 
 
