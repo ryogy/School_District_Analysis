@@ -9,10 +9,10 @@ The purpose of this analysis was to organize the data to provide insight on how 
    
 * The difference between the unadjusted school summary and adjusted school summary for Thomas High School was drastic.  Obviously, when the entire 9th grade scores are replaced with NANs it will drastically skew the average passing rate of the entire school towards zero.  The skew can be seen between the dataframes presented below.
     ###### The Unadjusted DataFrame: 9th Grade Scores Replaced with NAN
-    <img src="/Users/robertyokabaskas/Desktop/Class/School_District_Analysis/Resources/unadjusted_school_data.png" alt="unadjusted_school_data" style="zoom:80%;" />
+    ![unadjusted_df](/Users/robertyokabaskas/Desktop/Class/School_District_Analysis/Resources/unadjusted_df.png)
     
     ###### The Adjusted DataFrame: 9th Grade Scores from Thomas High School were Removed from the Dataset Analysis
-    <img src="/Users/robertyokabaskas/Desktop/Class/School_District_Analysis/Resources/Adjusted_school_data.png" alt="Adjusted_school_data" style="zoom:80%;" />
+    ![adjusted_df](/Users/robertyokabaskas/Desktop/Class/School_District_Analysis/Resources/adjusted_df.png)
     
 * This very much affects the standing of Thomas High School in the school district rankings.  Under normal circumstances, Thomas High School stands at #2 in the district rankings.  However, with the 9th grade scores being factored in as NANs the school comes in at the #8 spot in the district rankings. 
 
